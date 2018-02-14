@@ -5,6 +5,7 @@
  * restricted by GSA ADP Schedule Contract with IBM Corp.
  ******************************************************************************/
 import UIKit
+import DAMod
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

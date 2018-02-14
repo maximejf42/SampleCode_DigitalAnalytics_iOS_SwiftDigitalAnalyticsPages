@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A26B6FA159884A7CAA30C18 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3E6F55741C71B75AB48AA2 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */; };
 		1E0C6C891C73DBF8003603EB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0C6C881C73DBF8003603EB /* CoreTelephony.framework */; };
 		6315AB761BE8D20800B38D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315AB751BE8D20800B38D21 /* AppDelegate.swift */; };
 		6315AB781BE8D20800B38D21 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315AB771BE8D20800B38D21 /* RootViewController.swift */; };
@@ -19,11 +20,8 @@
 		6315AB9A1BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315AB991BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests.swift */; };
 		634F8ECF1BE9B09C00B90096 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634F8ECE1BE9B09C00B90096 /* SystemConfiguration.framework */; };
 		634F8ED11BE9B0C500B90096 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 634F8ED01BE9B0C500B90096 /* libz.tbd */; };
-		668583351FD25EDB0078E71D /* EOCoreSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 633DBDE11C75A67400C1075C /* EOCoreSettings.bundle */; };
-		668583361FD25EDE0078E71D /* DAMod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 633DBDE51C75A68400C1075C /* DAMod.bundle */; };
-		66E9B7121FD25F2300BCD86A /* DAMod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633DBDE61C75A68400C1075C /* DAMod.framework */; };
-		66E9B7131FD25F2600BCD86A /* libEOCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 633DBDE21C75A67400C1075C /* libEOCore.a */; };
-		66E9B7151FD25F3F00BCD86A /* DigitalAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E9B7141FD25F3F00BCD86A /* DigitalAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B2C00B582B06B446F7D7CE /* Pods_SwiftDigitalAnalyticsPagesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567A434B0A57F74A6487A46F /* Pods_SwiftDigitalAnalyticsPagesTests.framework */; };
+		BF3E9972F2B49C6A76FFB3FE /* Pods_SwiftDigitalAnalyticsPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE404FE5AECD0E236551A76A /* Pods_SwiftDigitalAnalyticsPages.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		1E0C6C881C73DBF8003603EB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		202A3D39D623EA5F95D5F355 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPages.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages.release.xcconfig"; sourceTree = "<group>"; };
+		567A434B0A57F74A6487A46F /* Pods_SwiftDigitalAnalyticsPagesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPagesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6315AB721BE8D20800B38D21 /* SwiftDigitalAnalyticsPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDigitalAnalyticsPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6315AB751BE8D20800B38D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6315AB771BE8D20800B38D21 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -60,15 +60,16 @@
 		6315AB951BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDigitalAnalyticsPagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6315AB991BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDigitalAnalyticsPagesUITests.swift; sourceTree = "<group>"; };
 		6315AB9B1BE8D20800B38D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		633DBDE11C75A67400C1075C /* EOCoreSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EOCoreSettings.bundle; sourceTree = "<group>"; };
-		633DBDE21C75A67400C1075C /* libEOCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEOCore.a; sourceTree = "<group>"; };
-		633DBDE51C75A68400C1075C /* DAMod.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DAMod.bundle; sourceTree = "<group>"; };
-		633DBDE61C75A68400C1075C /* DAMod.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DAMod.framework; sourceTree = "<group>"; };
-		634F8ECB1BE9AE8000B90096 /* DigitalAnalyticsBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DigitalAnalyticsBridgingHeader.h; path = ../../DigitalAnalyticsBridgingHeader.h; sourceTree = "<group>"; };
 		634F8ECC1BE9B08F00B90096 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		634F8ECE1BE9B09C00B90096 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		634F8ED01BE9B0C500B90096 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		66E9B7141FD25F3F00BCD86A /* DigitalAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DigitalAnalytics.h; path = SwiftDigitalAnalyticsPages/DigitalAnalyticsFrameworks/DAMod.framework/Headers/DigitalAnalytics.h; sourceTree = "<group>"; };
+		7BEE8A79AE19027CA949C863 /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages.debug.xcconfig"; sourceTree = "<group>"; };
+		A549AD6021FF996D667AC235 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC8031ADC37872AEE309A69A /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFCDE31DE2A7C5F334A3B527 /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE404FE5AECD0E236551A76A /* Pods_SwiftDigitalAnalyticsPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA21DDC257A3F96C7290A62 /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC3E6F55741C71B75AB48AA2 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPagesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E9B7121FD25F2300BCD86A /* DAMod.framework in Frameworks */,
-				66E9B7131FD25F2600BCD86A /* libEOCore.a in Frameworks */,
 				634F8ED11BE9B0C500B90096 /* libz.tbd in Frameworks */,
 				1E0C6C891C73DBF8003603EB /* CoreTelephony.framework in Frameworks */,
 				634F8ECF1BE9B09C00B90096 /* SystemConfiguration.framework in Frameworks */,
+				BF3E9972F2B49C6A76FFB3FE /* Pods_SwiftDigitalAnalyticsPages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B2C00B582B06B446F7D7CE /* Pods_SwiftDigitalAnalyticsPagesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A26B6FA159884A7CAA30C18 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,13 +106,13 @@
 		6315AB691BE8D20800B38D21 = {
 			isa = PBXGroup;
 			children = (
-				66E9B7141FD25F3F00BCD86A /* DigitalAnalytics.h */,
 				6315ABA71BE8D99100B38D21 /* DigitalAnalyticsFrameworks */,
 				6315AB741BE8D20800B38D21 /* SwiftDigitalAnalyticsPages */,
 				6315AB8D1BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesTests */,
 				6315AB981BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests */,
 				6315AB731BE8D20800B38D21 /* Products */,
 				66E9B7111FD25F2300BCD86A /* Frameworks */,
+				B74DEAA06B82AADD859A53B0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,15 +162,10 @@
 		6315ABA71BE8D99100B38D21 /* DigitalAnalyticsFrameworks */ = {
 			isa = PBXGroup;
 			children = (
-				633DBDE51C75A68400C1075C /* DAMod.bundle */,
-				633DBDE61C75A68400C1075C /* DAMod.framework */,
-				633DBDE11C75A67400C1075C /* EOCoreSettings.bundle */,
-				633DBDE21C75A67400C1075C /* libEOCore.a */,
 				1E0C6C881C73DBF8003603EB /* CoreTelephony.framework */,
 				634F8ED01BE9B0C500B90096 /* libz.tbd */,
 				634F8ECE1BE9B09C00B90096 /* SystemConfiguration.framework */,
 				634F8ECC1BE9B08F00B90096 /* CFNetwork.framework */,
-				634F8ECB1BE9AE8000B90096 /* DigitalAnalyticsBridgingHeader.h */,
 			);
 			name = DigitalAnalyticsFrameworks;
 			path = SwiftDigitalAnalyticsPages/DigitalAnalyticsFrameworks;
@@ -177,8 +174,24 @@
 		66E9B7111FD25F2300BCD86A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE404FE5AECD0E236551A76A /* Pods_SwiftDigitalAnalyticsPages.framework */,
+				567A434B0A57F74A6487A46F /* Pods_SwiftDigitalAnalyticsPagesTests.framework */,
+				FC3E6F55741C71B75AB48AA2 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B74DEAA06B82AADD859A53B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE8A79AE19027CA949C863 /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */,
+				202A3D39D623EA5F95D5F355 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */,
+				AFCDE31DE2A7C5F334A3B527 /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */,
+				EEA21DDC257A3F96C7290A62 /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */,
+				AC8031ADC37872AEE309A69A /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */,
+				A549AD6021FF996D667AC235 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +201,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E9B7151FD25F3F00BCD86A /* DigitalAnalytics.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,10 +211,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6315AB9E1BE8D20800B38D21 /* Build configuration list for PBXNativeTarget "SwiftDigitalAnalyticsPages" */;
 			buildPhases = (
+				FB7F37F5DB7E4733A32E83C4 /* [CP] Check Pods Manifest.lock */,
 				6315AB6E1BE8D20800B38D21 /* Sources */,
 				6315AB6F1BE8D20800B38D21 /* Frameworks */,
 				6315AB701BE8D20800B38D21 /* Resources */,
 				668583341FD25EB40078E71D /* Headers */,
+				DBD75E12C8427517F89996B4 /* [CP] Embed Pods Frameworks */,
+				4094D05522B18C72DDE04392 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6315ABA11BE8D20800B38D21 /* Build configuration list for PBXNativeTarget "SwiftDigitalAnalyticsPagesTests" */;
 			buildPhases = (
+				B2C4C2300542A3C410CA2CFD /* [CP] Check Pods Manifest.lock */,
 				6315AB861BE8D20800B38D21 /* Sources */,
 				6315AB871BE8D20800B38D21 /* Frameworks */,
 				6315AB881BE8D20800B38D21 /* Resources */,
+				AEC45DA09DE40C71CA4CABF1 /* [CP] Embed Pods Frameworks */,
+				73A3EBE4FFE235B86AC75E6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6315ABA41BE8D20800B38D21 /* Build configuration list for PBXNativeTarget "SwiftDigitalAnalyticsPagesUITests" */;
 			buildPhases = (
+				8D7DFF0D4629414B7DCCC9C8 /* [CP] Check Pods Manifest.lock */,
 				6315AB911BE8D20800B38D21 /* Sources */,
 				6315AB921BE8D20800B38D21 /* Frameworks */,
 				6315AB931BE8D20800B38D21 /* Resources */,
+				700AC7C0221ABB6A2701CD6F /* [CP] Embed Pods Frameworks */,
+				11447E0F4FBD09167234BF65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,8 +321,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668583351FD25EDB0078E71D /* EOCoreSettings.bundle in Resources */,
-				668583361FD25EDE0078E71D /* DAMod.bundle in Resources */,
 				6315AB841BE8D20800B38D21 /* LaunchScreen.storyboard in Resources */,
 				6315AB811BE8D20800B38D21 /* Assets.xcassets in Resources */,
 				6315AB7F1BE8D20800B38D21 /* Main.storyboard in Resources */,
@@ -323,6 +342,163 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11447E0F4FBD09167234BF65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4094D05522B18C72DDE04392 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-resources.sh",
+				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Debug/DAMod.framework/DAMod.bundle",
+				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DAMod.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EOCoreSettings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		700AC7C0221ABB6A2701CD6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A3EBE4FFE235B86AC75E6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7DFF0D4629414B7DCCC9C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftDigitalAnalyticsPagesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC45DA09DE40C71CA4CABF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C4C2300542A3C410CA2CFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftDigitalAnalyticsPagesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD75E12C8427517F89996B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-frameworks.sh",
+				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Debug/DAMod.framework",
+				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DAMod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EOCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7F37F5DB7E4733A32E83C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftDigitalAnalyticsPages-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6315AB6E1BE8D20800B38D21 /* Sources */ = {
@@ -417,7 +593,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "../../DAMod/Debug/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -432,9 +607,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "../../DAMod/Debug/DAMod.framework/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LIBRARY_SEARCH_PATHS = "../../EOCore/Debug/**";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -472,7 +645,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "../../DAMod/Debug/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -481,9 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "../../DAMod/Debug/DAMod.framework/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LIBRARY_SEARCH_PATHS = "../../EOCore/Debug/**";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -493,25 +663,16 @@
 		};
 		6315AB9F1BE8D20800B38D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEE8A79AE19027CA949C863 /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/SwiftDigitalAnalyticsPages/DigitalAnalyticsFrameworks",
-				);
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPages/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/SwiftDigitalAnalyticsPages/DigitalAnalyticsFrameworks",
-				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = DigitalAnalyticsBridgingHeader.h;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -519,25 +680,16 @@
 		};
 		6315ABA01BE8D20800B38D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202A3D39D623EA5F95D5F355 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/SwiftDigitalAnalyticsPages/DigitalAnalyticsFrameworks",
-				);
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPages/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/SwiftDigitalAnalyticsPages/DigitalAnalyticsFrameworks",
-				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = DigitalAnalyticsBridgingHeader.h;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -545,10 +697,10 @@
 		};
 		6315ABA21BE8D20800B38D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCDE31DE2A7C5F334A3B527 /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -559,10 +711,10 @@
 		};
 		6315ABA31BE8D20800B38D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA21DDC257A3F96C7290A62 /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -573,9 +725,9 @@
 		};
 		6315ABA51BE8D20800B38D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8031ADC37872AEE309A69A /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -587,9 +739,9 @@
 		};
 		6315ABA61BE8D20800B38D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A549AD6021FF996D667AC235 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
